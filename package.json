@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js",
+    "start": "next start",
+    "dev": "next",
     "build": "next build",
     "export": "next export",
     "lint:css": "stylelint './components/**/*.js' ",
@@ -15,26 +16,26 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel-plugin-styled-components": "^1.1.7",
-    "eslint-plugin-import": "^2.7.0",
-    "express": "^4.15.2",
-    "next": "beta",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "styled-components": "^2.1.2",
-    "unfetch": "^3.0.0",
-    "webpack": "^2.5.1"
+    "babel-plugin-styled-components": "^1.10.0",
+    "eslint-plugin-import": "^2.16.0",
+    "express": "^4.16.4",
+    "next": "^8.0.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^2.4.1",
+    "unfetch": "^3.1.2",
+    "webpack": "^4.29.6"
   },
   "devDependencies": {
-    "eslint": "^4.4.0",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb": "^15.1.0",
-    "eslint-config-prettier": "^2.3.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-prettier": "^2.1.2",
-    "eslint-plugin-react": "^7.1.0",
-    "prettier": "^1.5.3",
-    "stylelint": "^8.0.0",
+    "eslint-config-prettier": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-prettier": "^2.7.0",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4",
+    "stylelint": "^8.4.0",
     "stylelint-config-standard": "^17.0.0",
-    "stylelint-processor-styled-components": "^0.2.1"
+    "stylelint-processor-styled-components": "^0.2.2"
   }
 }
